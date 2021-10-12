@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GuessNumber</string>
+    <string name="btnPlay">¡A jugar!</string>
+    <string name="tvUser">Usuario</string>
+    <string name="tvAttempts">Intentos</string>
+    <string name="tvConfigTitleInfoGuessTheNumber">¡Adivina el número!</string>
+    <string name="btnCheckNumber">Comprobar</string>
+    <string name="toastEmptyFields">Rellena ambos campos para continuar, por favor.</string>
+    <string name="toastNumberLessThan1">Introduce un número mayor que 0.</string>
+    <string name="toastNumberGreaterThan100">Introduce un número menor o igual que 100.</string>
+    <string name="toastEmptyField">Rellena el campo, por favor.</string>
+    <string name="tvInfoNumberIsGreater">El número es mayor.</string>
+    <string name="tvInfoNumberIsLess">El número es menor.</string>
+    <string name="tvInfoNumberIsEqual">¡El número es igual!</string>
+    <string name="tvConfigInfo">Aquí puedes introducir tu nombre de usuario y el número de intentos en los que quieres acertar el número en el rango de 1 a 100.</string>
+    <string name="tvNumberGuessed_1">"El usuario "</string>
+    <string name="tvNumberGuessed_2_1">" acertó el número."</string>
+    <string name="tvNumberGuessed_2_2">" no acertó el número."</string>
+    <string name="tvPlayInfo">Si adivinas el número o te quedas sin intentos el juego acabará.</string>
+    <string name="tvActualAttemptsOutOfAttempts_1">"Lo hiciste en "</string>
+    <string name="tvActualAttemptsOutOfAttempts_2">" intentos de "</string>
+</resources>

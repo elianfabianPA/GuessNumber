@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GuessNumber</string>
+    <string name="btnPlay">Play!</string>
+    <string name="tvUser">User</string>
+    <string name="tvAttempts">Attempts</string>
+    <string name="tvConfigTitleInfoGuessTheNumber">Guess the number!</string>
+    <string name="btnCheckNumber">Check</string>
+    <string name="toastEmptyFields">Fill both fields to continue, please.</string>
+    <string name="toastNumberLessThan1">Introduce a number greater than 0.</string>
+    <string name="toastNumberGreaterThan100">Introduce a number less than or equal to 100.</string>
+    <string name="toastEmptyField">Fill the field, please.</string>
+    <string name="tvInfoNumberIsGreater">The number is greater.</string>
+    <string name="tvInfoNumberIsLess">The number is less.</string>
+    <string name="tvInfoNumberIsEqual">The number is equal!</string>
+    <string name="tvConfigInfo">Here you can introduce your user and number of attempts you want to guess the number in the range 1 to 100.</string>
+    <string name="tvPlayInfo">If you guess the number or you run out of attempts the game will end.</string>
+    <string name="tvNumberGuessed_1">"The user "</string>
+    <string name="tvNumberGuessed_2_1">" guessed the number."</string>
+    <string name="tvNumberGuessed_2_2">" didn't guess the number."</string>
+    <string name="tvActualAttemptsOutOfAttempts_1">"You did it in "</string>
+    <string name="tvActualAttemptsOutOfAttempts_2">" attempts out of "</string>
+</resources>
