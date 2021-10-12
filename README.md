@@ -13,4 +13,4 @@ A continuación se muestra una serie de capturas de la aplicación.
 <br>
 
 
-<img src="img/gn_1.jpg" width="250"/> <img src="img/gn_2.jpg" width="250"/> <img src="img/gn_3.jpg" width="250"/>
+<img src="img/gn_1.jpg" width="300"/> <img src="img/gn_2.jpg" width="300"/> <img src="img/gn_3.jpg" width="300"/>
