@@ -29,6 +29,10 @@ public class PlayActivity extends AppCompatActivity
 
     String numberIs_GT_LT; // Contiene el mensaje de si el número es mayor o menor que el introducido
 
+    // Rango del número aleatorio
+    final int min_num = 1;
+    final int max_num = 100;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -52,7 +56,7 @@ public class PlayActivity extends AppCompatActivity
 
         // Generamos el número aleatorio entre 1 y 100
         Random ran = new Random();
-        numberToGuess = ran.nextInt(101) + 1;
+        numberToGuess = ran.nextInt(max_num + 1) + min_num;
 
 
         // Botón Check para comprobar si el número coincide o no con el que hay que adivinar
@@ -72,7 +76,7 @@ public class PlayActivity extends AppCompatActivity
                         Toast.makeText(this, R.string.toastNumberLessThan1, Toast.LENGTH_SHORT).show();
                         return;
                     }
-                    else if (userNumberToGuess > 100)
+                    else if (userNumberToGuess > max_num)
                     {
                         Toast.makeText(this, R.string.toastNumberGreaterThan100, Toast.LENGTH_SHORT).show();
                         return;
@@ -94,7 +98,6 @@ public class PlayActivity extends AppCompatActivity
                     else
                     {
                         numberMatched = true; // El jugador ha acetado el número
-                        Log.d("", "numberMatched = true");
                         sendIntent();
                     }
                     binding.tvInfo.setText(numberIs_GT_LT);
