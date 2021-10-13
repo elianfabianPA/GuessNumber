@@ -10,9 +10,8 @@
     <string name="toastNumberLessThan1">Introduce un número mayor que 0.</string>
     <string name="toastNumberGreaterThan100">Introduce un número menor o igual que 100.</string>
     <string name="toastEmptyField">Rellena el campo, por favor.</string>
-    <string name="tvInfoNumberIsGreater">El número es mayor.</string>
-    <string name="tvInfoNumberIsLess">El número es menor.</string>
-    <string name="tvInfoNumberIsEqual">¡El número es igual!</string>
+    <string name="tvInfoNumberIsGreater">El número buscado es mayor.</string>
+    <string name="tvInfoNumberIsLess">El número buscado es menor.</string>
     <string name="tvConfigInfo">Aquí puedes introducir tu nombre de usuario y el número de intentos en los que quieres acertar el número en el rango de 1 a 100.</string>
     <string name="tvNumberGuessed_1">"El usuario "</string>
     <string name="tvNumberGuessed_2_1">" acertó el número."</string>
@@ -20,4 +19,5 @@
     <string name="tvPlayInfo">Si adivinas el número o te quedas sin intentos el juego acabará.</string>
     <string name="tvActualAttemptsOutOfAttempts_1">"Lo hiciste en "</string>
     <string name="tvActualAttemptsOutOfAttempts_2">" intentos de "</string>
+    <string name="btnClean">Borrar</string>
 </resources>

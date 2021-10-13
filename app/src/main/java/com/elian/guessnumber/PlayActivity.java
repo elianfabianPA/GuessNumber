@@ -13,6 +13,11 @@ import com.elian.guessnumber.databinding.ActivityPlayBinding;
 
 import java.util.Random;
 
+/**
+ * En esta Activity es dónde empieza el juego.
+ * El jugador tendrá que adivinar el número buscado
+ * en menos o igual de intentos que los que introdujo.
+ */
 public class PlayActivity extends AppCompatActivity
 {
 
@@ -101,7 +106,6 @@ public class PlayActivity extends AppCompatActivity
                         sendIntent();
                     }
                     binding.tvInfo.setText(numberIs_GT_LT);
-                    binding.edUserNumberToGuess.setText("");
                     //endregion
                 }
                 else Toast.makeText(this, R.string.toastEmptyField, Toast.LENGTH_SHORT).show();
@@ -113,7 +117,11 @@ public class PlayActivity extends AppCompatActivity
             }
         });
 
-        //binding.btnCheckNumber.setEnabled(false);
+        // Limpia el campo dónde se introduce el número a buscar
+        binding.btnClean.setOnClickListener(view ->
+        {
+            binding.edUserNumberToGuess.setText("");
+        });
     }
 
     //region Guardar el valor de tvInfo al rotar el dispositivo

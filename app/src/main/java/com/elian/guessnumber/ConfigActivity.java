@@ -8,6 +8,10 @@ import android.widget.Toast;
 
 import com.elian.guessnumber.databinding.ActivityConfigBinding;
 
+/**
+ * Esta Activity se encarga de de recibir el nombre de usuario y el número de
+ * intentos en el que se tratará de adivinar el número.
+ */
 public class ConfigActivity extends AppCompatActivity
 {
     private ActivityConfigBinding binding;
